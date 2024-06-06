@@ -116,8 +116,8 @@ S.Drawing = (function () {
 
 S.UI = (function () {
   var delay1,delay2;
-  delay1 = 2500;
-  delay2 = 4500;
+  delay1 = 2350;
+  delay2 = 4350;
   var canvas = document.querySelector('.canvas'),
       interval,
       isTouch = false, //('ontouchstart' in window || navigator.msMaxTouchPoints),
@@ -174,8 +174,8 @@ S.UI = (function () {
         value,
         current;
     if (window.innerWidth>500 && window.innerHeight>500){
-      delay1 = 2500;
-      delay2 = 4500;
+      delay1 = 1600;
+      delay2 = 3600;
     }
     // overlay.classList.remove('overlay--visible');
     sequence = typeof(value) === 'object' ? value : sequence.concat(value.split('|'));
