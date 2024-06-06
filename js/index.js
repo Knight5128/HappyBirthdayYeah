@@ -25,7 +25,7 @@ var S = {
       if (i !== -1) {
         S.UI.simulate(decodeURI(action).substring(i + 3));
       } else {
-        S.UI.simulate('|#icon heart');
+        S.UI.simulate('|( ◠‿◠ )');
       }
 
       S.Drawing.loop(function () {
